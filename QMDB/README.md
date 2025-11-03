@@ -44,16 +44,25 @@ This project is a library (a data-access layer) and isn't meant to be "run" dire
 
 ```bash
 # Navigate to the project directory
-cd Python-Prep/qmdb
+cd Python-Prep/QMDB
 
 # Install dependencies
 pip install -r requirements.txt
-How to Run TestsA comprehensive test suite is included to validate all database logic.To run all tests, navigate to the root directory of this repository (Python-Prep/) and use the unittest discover command:# From the root "Python-Prep" directory
-python -m unittest discover
-This command will automatically find all test files (qmdb/test/tests.py), run it, and provide a summary report.Project StructurePython-Prep/
+## How to Run Tests
+
+A comprehensive test suite is included to validate all database logic.
+
+To run all tests for **this specific project**, navigate to the root directory of this repository (`Python-Prep/`) and use the `unittest discover` command with the `-s` flag to specify the starting directory:
+
+```bash
+# From the root "Python-Prep" directory:
+python -m unittest discover -s QMDB
+
+##Project Structure
+Python-Prep/
 │
-├── qmdb/                 # Main project package
-│   ├── __init__.py       # Makes 'qmdb' a Python package
+├── QMDB/                 # Main project package
+│   ├── __init__.py       # Makes 'QMDB' a Python package
 │   ├── models.py         # Defines all SQLAlchemy ORM models (Tables)
 │   ├── requirements.txt  # Project dependencies
 │   │

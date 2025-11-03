@@ -16,7 +16,7 @@ A complete data-access layer for a movie database, similar to IMDB. This project
 
 - **Core Concepts:** SQLAlchemy ORM, Complex Relationships (1-M, M-M), Advanced Queries (func.avg, group_by), Manager Pattern, Unit Testing
 - **Tech Stack:** Python, SQLAlchemy, unittest
-- [**➡️ Dive into the code and architecture**](http://github.com/Alireza-Madadi/Python-Prep/QMDB/README.md)
+- [**➡️ Dive into the code and architecture**](https://github.com/Alireza-Madadi/Python-Prep/blob/main/QMDB/README.md)
 
 ### 2\. The Multiplayer Snake Game
 
@@ -24,7 +24,7 @@ The classic Snake game, refactored with a full client-server architecture. This 
 
 - **Core Concepts:** Client-Server Architecture, Socket Programming, Threading (for server), Data Serialization (json), OOP, Pygame
 - **Tech Stack:** Python, socket, threading, json, pygame
-- [**➡️ Dive into the code and architecture**](http://github.com/Alireza-Madadi/Python-Prep/multiplayer_snake/README.md)
+- [**➡️ Dive into the code and architecture**](https://github.com/Alireza-Madadi/Python-Prep/blob/main/multiplayer_snake/README.md)
 
 ### 3\. Secure Account Management System
 
@@ -32,4 +32,4 @@ A robust, self-contained module for user registration and login. This project fo
 
 - **Core Concepts:** Password Hashing (hashlib), Input Validation (RegEx), Custom Decorators, OOP, Unit Testing
 - **Tech Stack:** Python, hashlib, re, unittest
-- [**➡️ Dive into the code and architecture**](http://github.com/Alireza-Madadi/Python-Prep/secure_auth_system/README.md)
+- [**➡️ Dive into the code and architecture**](https://github.com/Alireza-Madadi/Python-Prep/blob/main/secure_auth_system/README.md)
